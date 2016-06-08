@@ -1,5 +1,5 @@
 from PIL import Image
-im = Image.open('d2.jpg')
+im = Image.open('a2.jpg')
 
 pix = list(im.getdata())
 #pixel = im.load()
@@ -17,6 +17,10 @@ for i in range(len(pix)):
 length = len(pixn)
 
 print "New length is %d" % length
+print "New width  is %d" % width
+print "New height is %d" % height
+
+print pixn
 
 im2 = Image.new( 'L', im.size, "black") # create a new black image
 pixels = im2.load() # create the pixel map
@@ -30,4 +34,4 @@ for i in range(im2.size[0]):    # for every pixel:
 			pixels[i,j] = 255 #(0, 0, 0) # set the colour accordingly
 
 
-im2.save('d3.jpg')
+im2.save('a3.jpg')
