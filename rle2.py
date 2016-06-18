@@ -46,6 +46,10 @@ for i in range(len(l1)):
 		l2[ptr] = [1 , l1[i]];
 
 val = [-1, -1];
+
+for i in range(len(l2)):
+	if l2[i] == val:
+
 while val in l2:
 	l2.remove(val)
 

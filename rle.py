@@ -1,6 +1,6 @@
 #!/usr/bin/python
+import numpy as np     
 from PIL import Image  # Pillow
-import numpy as np     # numpy
 
 # Function definition is here
 def repeat( number,   pixel):
