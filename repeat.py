@@ -1,10 +1,8 @@
 #!/usr/bin/python
 
 # This defines a repeat like function as used in the hardware fader design doc 
-# and genrates required images from them 
-#
-#
-#
+# and genrates required images from them. More documenttion added to each function. 
+
 
 from PIL import Image
 import numpy as np     # numpy
