@@ -1,6 +1,6 @@
 
 ### repeat.py
-This defines a repeat class, with function for initializing and generating list.
+This defines a Repeat class, with function for initializing and generating list.
 The generate function takes a Repeat class variable as input and returns a 1D list of integers as output, which correspons to the decoded value
 
 ### generate_matrix()
